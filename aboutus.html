@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Liora Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: beige;
+      color: #333;
+    }
+    header {
+      background: #000000;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    header nav {
+      margin-top: 1rem;
+    }
+    header nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    header nav a:hover {
+      color: #a0aec0;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: beige;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .about-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: beige;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+    .full {
+      grid-column: 1 / -1;
+    }
+    h2 { margin-top: 0; font-size: 1.8rem; }
+    h3 { color: #333; }
+    .team {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .member {
+      flex: 1 1 150px;
+      background: bisque;
+      padding: 1rem;
+      border-radius: 6px;
+      text-align: center;
+      border: 1px solid #eee;
+    }
+    .values {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .value {
+      flex: 1 1 120px;
+      padding: 0.75rem;
+      background: bisque;
+      border-radius: 6px;
+      border: 1px solid #eee;
+      text-align: center;
+    }
+    footer { 
+      text-align: center; 
+      padding: 1rem; 
+      background: #000000; 
+      color: #fff; 
+      margin-top: 2rem;
+    }
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero h2 { font-size: 2rem; }
+      header h1 { font-size: 1.5rem; }
+      .about-container { margin: 1rem; padding: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>LIORA</h1>
+  <nav>
+    <a href="index.php">Home</a>
+    <a href="Mens Page/Men.php">Men</a>
+    <a href="Women Page/index.php">Women</a>
+    <a href="Kids_Page/kids.php">Kids</a>
+    <a href="Best Sellers Page/project.php">Best Sellers</a>
+    <a href="aboutus.html">About</a>
+    <a href="contactus.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Our story, crafted with care</h2>
+  <p>Founded with a love for thoughtful design and quality, Liora creates pieces meant to be lived in — stylish, comfortable, and made to last.</p>
+</section>
+
+<section class="about-container">
+  <div class="grid">
+    <div class="full">
+      <h2>Who we are</h2>
+      <p>Liora began as a small studio with a simple mission: to make clothing that blends timeless style with everyday comfort. Over the years we've grown into a team of designers, makers, and storytellers who care deeply about craftsmanship and sustainability.</p>
+    </div>
+
+    <div>
+      <h3>Our mission</h3>
+      <p>To design high-quality fashion with purpose — pieces that feel good, look great, and are responsibly made for the modern wardrobe.</p>
+    </div>
+
+    <div>
+      <h3>What we value</h3>
+      <div class="values">
+        <div class="value"><strong>Quality</strong><br>Durable materials and thoughtful construction.</div>
+        <div class="value"><strong>Style</strong><br>Timeless designs that transcend trends.</div>
+        <div class="value"><strong>Community</strong><br>Supporting local makers and fair practices.</div>
+      </div>
+    </div>
+
+    <div class="full">
+      <h2>Meet the team</h2>
+      <div class="team">
+        <div class="member">
+          <strong>Sofia Chen</strong>
+          <div>Founder &amp; Creative Director</div>
+        </div>
+        <div class="member">
+          <strong>Marcus Rivera</strong>
+          <div>Head of Design</div>
+        </div>
+        <div class="member">
+          <strong>Aria Patel</strong>
+          <div>Operations &amp; Sustainability</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3>Where we create</h3>
+      <p>We partner with trusted local workshops and certified suppliers to ensure fair labor and responsible manufacturing across all our collections.</p>
+    </div>
+
+    <div>
+      <h3>Our promise</h3>
+      <p>If you ever have an issue with your order, our support team is ready to help — reach out anytime via our Contact page or customer service.</p>
+    </div>
+
+    <div class="full">
+      <h2>Our Journey</h2>
+      <p><strong>2020</strong> — Liora fashion studio opens.<br>
+      <strong>2021</strong> — Launched first full collection for men, women, and kids.<br>
+      <strong>2023</strong> — Began sustainable sourcing program.<br>
+      <strong>2025</strong> — Expanded into online shopping with worldwide shipping.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Liora. All rights reserved.
+</footer>
+
+<!-- Floating Contact Buttons -->
+<div class="floating-contact-buttons">
+  <a href="https://wa.me/94773768984" target="_blank" class="whatsapp-btn" title="Chat on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.473 3.516"/>
+    </svg>
+  </a>
+  <a href="mailto:kavindugimhan206@gmail.com" class="email-btn" title="Send Email">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+    </svg>
+  </a>
+</div>
+
+<style>
+  .floating-contact-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 1000;
+  }
+
+  .whatsapp-btn, .email-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+  }
+
+  .whatsapp-btn {
+    background: #25D366;
+  }
+
+  .whatsapp-btn:hover {
+    background: #128C7E;
+    transform: scale(1.1);
+  }
+
+  .email-btn {
+    background: #EA4335;
+  }
+
+  .email-btn:hover {
+    background: #D33B2C;
+    transform: scale(1.1);
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .floating-contact-buttons {
+      bottom: 20px;
+      right: 20px;
+    }
+    
+    .whatsapp-btn, .email-btn {
+      width: 50px;
+      height: 50px;
+    }
+  }
+</style>
+
+<!-- Enhanced Visual Effects Scripts -->
+<script src="Scripts/cursor.js"></script>
+<script src="Scripts/particles.js"></script>
+
+</body>
+</html>
